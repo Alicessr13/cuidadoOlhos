@@ -5,6 +5,7 @@ import { useFonts } from 'expo-font';
 import HeaderEyes from '@/components/headerHome';
 import HeaderHome from '@/components/headerHome';
 import HeroHome from '@/components/heroHome';
+import FooterHome from '@/components/footerHome';
 
 export default function HomeScreen() {
 
@@ -18,10 +19,11 @@ export default function HomeScreen() {
 
   return (
     <>
-      <View style={tw`flex items-center bg-white`}>
+      <View style={tw`flex items-center bg-white padrao`}>
         <View>
           <HeaderHome />
           <HeroHome/>
+          <FooterHome/>
         </View>
       </View>
     </>
@@ -38,4 +40,21 @@ const styles = StyleSheet.create({
     fontFamily: 'BebasNeue', // verifique o nome correto conforme o arquivo (às vezes o nome PostScript)
     fontSize: 20,
   },
+  padrao: {
+    boxSizing: 'border-box',
+    margin: 0,
+    padding: 0,
+  }
 });
+
+/**
+ * *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  font-size: 62.5%;
+}
+ */

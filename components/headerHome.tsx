@@ -24,7 +24,7 @@ export default function HeaderHome() {
                     <Link href="/" style={[tw`font-bebas text-blue-800 text-sm`, styles.fontText]}>FUNCIONALIDADES</Link>
                     <Link href="/" style={[tw`font-bebas text-blue-800 text-sm`, styles.fontText]}>DEPOIMENTOS</Link>
                     <Link href="/" style={[tw`font-bebas text-blue-800 text-sm`, styles.fontText]}>BLOG</Link>
-                    <Link href="/" style={[tw`font-bebas text-blue-800 text-sm`, styles.fontText]}>CONTATO</Link>
+                    <Link href="/" style={[tw`font-bebas text-blue-800 text-sm border-2 border-blue-800 rounded-lg p-1`, styles.fontText]}>LOGIN</Link>
                 </View>
                 
             </View>

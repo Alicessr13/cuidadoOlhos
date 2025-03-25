@@ -34,15 +34,15 @@ export default function HeroHome() {
                     <Text style={[tw`flex flex-row items-center w-full px-4 mb-4 text-white`, styles.title]}>Social Proof</Text>
                     <View style={tw`flex flex-row items-center w-full px-4 mb-4`}>
                         <Image source={require('../assets/images/white_Check.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-white`}>Mais de 50.000 usuários satisfeitos.</Text>
+                        <Text style={tw`text-white pr-4`}>Mais de 50.000 usuários satisfeitos.</Text>
                     </View>
                     <View style={tw`flex flex-row items-center w-full px-4 mb-4`}>
                         <Image source={require('../assets/images/white_Check.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-white`}>Reconhecido por oftalmologistas renomados.</Text>
+                        <Text style={tw`text-white pr-4`}>Reconhecido por oftalmologistas renomados.</Text>
                     </View>
                     <View style={tw`flex flex-row items-center w-full px-4 mb-4`}>
                         <Image source={require('../assets/images/white_Check.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-white`}>Certificação de qualidade em exames digitais.</Text>
+                        <Text style={tw`text-white pr-4`}>Certificação de qualidade em exames digitais.</Text>
                     </View>
                 </View>
 
@@ -50,19 +50,19 @@ export default function HeroHome() {
                     <Text style={[tw`flex flex-row items-center w-full px-4 mb-4 text-blue-500`, styles.title]}>Benefícios</Text>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
                         <Image source={require('../assets/images/vetor_blue.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-blue-500`}>Diagnóstico Precoce: Identifique problemas antes que eles afetem sua visão.</Text>
+                        <Text style={tw`text-blue-500 pr-4`}>Diagnóstico Precoce: Identifique problemas antes que eles afetem sua visão.</Text>
                     </View>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
                         <Image source={require('../assets/images/vetor_blue.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-blue-500`}>Monitoramento Contínuo: Acompanhe a evolução da sua saúde ocular com testes regulares.</Text>
+                        <Text style={tw`text-blue-500 pr-4`}>Monitoramento Contínuo: Acompanhe a evolução da sua saúde ocular com testes regulares.</Text>
                     </View>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
                         <Image source={require('../assets/images/vetor_blue.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-blue-500`}>Relatórios Detalhados: Compartilhe resultados com seu oftalmologista de forma simples.</Text>
+                        <Text style={tw`text-blue-500 pr-4`}>Relatórios Detalhados: Compartilhe resultados com seu oftalmologista de forma simples.</Text>
                     </View>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
                         <Image source={require('../assets/images/vetor_blue.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-blue-500`}>Acessível para Todos: Interface intuitiva e testes adaptáveis para qualquer idade.</Text>
+                        <Text style={tw`text-blue-500 pr-4`}>Acessível para Todos: Interface intuitiva e testes adaptáveis para qualquer idade.</Text>
                     </View>
                 </View>
 
@@ -73,20 +73,24 @@ export default function HeroHome() {
                     </View>
 
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
-                        <Image source={require('../assets/images/vetor_blue.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-blue-500`}>Diagnóstico Precoce: Identifique problemas antes que eles afetem sua visão.</Text>
+                        <Image source={require('../assets/images/um.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
+                        <Text style={tw`text-black pr-4`}>Faça login e personalize seu perfil.</Text>
                     </View>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
-                        <Image source={require('../assets/images/vetor_blue.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-blue-500`}>Monitoramento Contínuo: Acompanhe a evolução da sua saúde ocular com testes regulares.</Text>
+                        <Image source={require('../assets/images/dois.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
+                        <Text style={tw`text-black pr-4`}>Escolha um teste de acuidade visual ou daltonismo.</Text>
                     </View>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
-                        <Image source={require('../assets/images/vetor_blue.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-blue-500`}>Relatórios Detalhados: Compartilhe resultados com seu oftalmologista de forma simples.</Text>
+                        <Image source={require('../assets/images/tres.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
+                        <Text style={tw`text-black pr-4`}>Responda aos estímulos visuais na tela.</Text>
                     </View>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
-                        <Image source={require('../assets/images/vetor_blue.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-blue-500`}>Acessível para Todos: Interface intuitiva e testes adaptáveis para qualquer idade.</Text>
+                        <Image source={require('../assets/images/quatro.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
+                        <Text style={tw`text-black pr-4`}>Receba um relatório instantâneo sobre sua visão.</Text>
+                    </View>
+                    <View style={tw`flex flex-row w-full px-4 mb-4`}>
+                        <Image source={require('../assets/images/cinco.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
+                        <Text style={tw`text-black pr-4`}>Agende uma consulta com um especialista, se necessário.</Text>
                     </View>
                 </View>
 

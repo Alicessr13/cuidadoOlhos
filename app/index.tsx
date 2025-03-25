@@ -19,7 +19,7 @@ export default function HomeScreen() {
 
   return (
     <>
-      <View style={tw`flex items-center bg-white padrao`}>
+      <View style={[tw`flex items-center bg-white`, styles.padrao]}>
         <View>
           <HeaderHome />
           <HeroHome/>

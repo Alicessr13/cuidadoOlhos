@@ -73,25 +73,33 @@ export default function HeroHome() {
                     </View>
 
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
-                        <Image source={require('../assets/images/um.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
+                        <Text style={tw`border border-black rounded-full w-6 h-6 flex items-center justify-center text-center mr-2`}>1</Text>
                         <Text style={tw`text-black pr-4`}>Faça login e personalize seu perfil.</Text>
                     </View>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
-                        <Image source={require('../assets/images/dois.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
+                        <Text style={tw`border border-black rounded-full w-6 h-6 flex items-center justify-center text-center mr-2`}>2</Text>
                         <Text style={tw`text-black pr-4`}>Escolha um teste de acuidade visual ou daltonismo.</Text>
                     </View>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
-                        <Image source={require('../assets/images/tres.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
-                        <Text style={tw`text-black pr-4`}>Responda aos estímulos visuais na tela.</Text>
+                        <Text style={tw`border border-black rounded-full w-6 h-6 flex items-center justify-center text-center mr-2`}>3</Text>
+                        <Text style={tw`text-black `}>Responda aos estímulos visuais na tela.</Text>
                     </View>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
-                        <Image source={require('../assets/images/quatro.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
+                        <Text style={tw`border border-black rounded-full w-6 h-6 flex items-center justify-center text-center mr-2`}>4</Text>
                         <Text style={tw`text-black pr-4`}>Receba um relatório instantâneo sobre sua visão.</Text>
                     </View>
                     <View style={tw`flex flex-row w-full px-4 mb-4`}>
-                        <Image source={require('../assets/images/cinco.png')} style={[tw`mr-2`, { width: 20, height: 20 }]} />
+                        <Text style={tw`border border-black rounded-full w-6 h-6 flex items-center justify-center text-center mr-2`}>5</Text>
                         <Text style={tw`text-black pr-4`}>Agende uma consulta com um especialista, se necessário.</Text>
                     </View>
+                </View>
+
+                <View style={tw`flex flex items-center justify-center w-full px-4 py-8 bg-blue-800`}>
+                    <Text style={[tw`font-bebas text-white mb-4 text-center`, styles.title]}>4 Hábitos Que Prejudicam a Saúde dos Seus Olhos</Text>
+                    <Text style={[tw`font-bebas text-white text-center mb-4`,]}>Pequenos hábitos do dia a dia podem comprometer sua visão sem que você perceba. </Text>
+                    <Link href="/habitos-prejudiciais" style={[tw`p-4 rounded-lg border-4 border-white m-4`,]}>
+                        <Text style={[tw` text-white text-center`, styles.fontContent]}>Descubra quais são e como evitar!</Text>
+                    </Link>
                 </View>
 
             </ScrollView>

@@ -8,7 +8,7 @@ import tw from 'tailwind-react-native-classnames';
 export default function HabitosPrejudiciais() {
     return (
         <View style={[tw`flex items-center bg-white`, styles.padrao]}>
-            <View>
+            <View style={[tw`w-full h-full`,]}>
                 <HeaderHome />
                 <HeroHabitosPrejudiciais />
                 <FooterHome />
@@ -22,10 +22,6 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-    },
-    customText: {
-        fontFamily: 'BebasNeue', // verifique o nome correto conforme o arquivo (às vezes o nome PostScript)
-        fontSize: 20,
     },
     padrao: {
         boxSizing: 'border-box',

@@ -7,8 +7,8 @@ import { Link } from 'expo-router';
 export default function HeaderHome() {
 
     const [fontsLoaded] = useFonts({
-        'BebasNeue': require('../assets/fonts/BebasNeue.ttf'),
-        'IBM': require('../assets/fonts/IBMPlexMono-Regular.ttf'),
+        'Lato': require('../assets/fonts/Lato-Regular.ttf'),
+        'Merriweather': require('../assets/fonts/Merriweather-VariableFont.ttf'),
     });
 
     if (!fontsLoaded) {
@@ -20,11 +20,10 @@ export default function HeaderHome() {
             <View style={tw` bg-white`}>
                 <View style={tw`flex flex-row items-center justify-between w-full p-4`}>
                     <Image source={require('../assets/images/eyeblue.png')} style={{ width: 40, height: 40 }} />
-                    <Link href="/" style={[tw`font-bebas text-blue-800 text-sm`, styles.fontText]}>INÍCIO</Link>
-                    <Link href="/" style={[tw`font-bebas text-blue-800 text-sm`, styles.fontText]}>FUNCIONALIDADES</Link>
-                    <Link href="/" style={[tw`font-bebas text-blue-800 text-sm`, styles.fontText]}>DEPOIMENTOS</Link>
-                    <Link href="/" style={[tw`font-bebas text-blue-800 text-sm`, styles.fontText]}>BLOG</Link>
-                    <Link href="/" style={[tw`font-bebas text-blue-800 text-sm border-2 border-blue-800 rounded-lg p-1`, styles.fontText]}>LOGIN</Link>
+                    <Link href="/" style={[tw`text-blue-800 text-xs`, styles.fontText]}>INÍCIO</Link>
+                    <Link href="/" style={[tw`text-blue-800 text-xs`, styles.fontText]}>QUEM SOMOS</Link>
+                    <Link href="/" style={[tw`text-blue-800 text-xs`, styles.fontText]}>INFORMAÇÕES</Link>
+                    <Link href="/login" style={[tw`text-blue-800 text-xs border-2 border-blue-800 rounded-lg p-1`, styles.fontText]}>LOGIN</Link>
                 </View>
                 
             </View>
@@ -33,19 +32,10 @@ export default function HeaderHome() {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
     fontText: {
-        fontFamily: 'BebasNeue', // verifique o nome correto conforme o arquivo (às vezes o nome PostScript)
+        fontFamily: 'Lato', // verifique o nome correto conforme o arquivo (às vezes o nome PostScript)
     },
-    fontContent: {
-        fontFamily: 'IBM',
+    fontTitle: {
+        fontFamily: 'Merriweather', // verifique o nome correto conforme o arquivo (às vezes o nome PostScript)
     },
-    title:{
-        fontFamily: 'BebasNeue',
-        fontSize: 40
-    }
 });

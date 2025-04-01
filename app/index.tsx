@@ -10,8 +10,9 @@ import FooterHome from '@/components/footerHome';
 export default function HomeScreen() {
 
   const [fontsLoaded] = useFonts({
-    'BebasNeue': require('../assets/fonts/BebasNeue.ttf'),
-  });
+    'Lato': require('../assets/fonts/Lato-Regular.ttf'),
+    'Merriweather': require('../assets/fonts/Merriweather-VariableFont.ttf'),
+});
 
   if (!fontsLoaded) {
     return null; // Pode exibir um loading se quiser
@@ -19,8 +20,8 @@ export default function HomeScreen() {
 
   return (
     <>
-      <View style={[tw`flex items-center bg-white`, styles.padrao]}>
-        <View>
+      <View style={[tw`flex items-center bg-white w-full`, styles.padrao]}>
+        <View style={[tw`w-full h-full`,]}>
           <HeaderHome />
           <HeroHome/>
           <FooterHome/>
@@ -35,10 +36,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  customText: {
-    fontFamily: 'BebasNeue', // verifique o nome correto conforme o arquivo (às vezes o nome PostScript)
-    fontSize: 20,
   },
   padrao: {
     boxSizing: 'border-box',

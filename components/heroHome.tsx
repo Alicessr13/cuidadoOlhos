@@ -95,14 +95,6 @@ export default function HeroHome() {
                     </View>
                 </View>
 
-                <View style={tw`flex flex items-center justify-center w-full px-4 pt-8 bg-blue-800`}>
-                    <Text style={[tw`text-white mb-4 text-center text-xl`, styles.fontTitle]}>4 Hábitos Que Prejudicam a Saúde dos Seus Olhos</Text>
-                    <Text style={[tw`text-white text-center mb-4`, styles.fontText]}>Pequenos hábitos do dia a dia podem comprometer sua visão sem que você perceba. </Text>
-                    <Link href="/habitos-prejudiciais" style={[tw`p-4 rounded-lg border-4 border-white m-4`,]}>
-                        <Text style={[tw` text-white text-center`, styles.fontText]}>Descubra quais são e como evitar!</Text>
-                    </Link>
-                </View>
-
             </ScrollView>
         </>
     );

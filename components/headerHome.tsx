@@ -22,7 +22,7 @@ export default function HeaderHome() {
                     <Image source={require('../assets/images/eyeblue.png')} style={{ width: 40, height: 40 }} />
                     <Link href="/" style={[tw`text-blue-800 text-xs`, styles.fontText]}>INÍCIO</Link>
                     <Link href="/" style={[tw`text-blue-800 text-xs`, styles.fontText]}>QUEM SOMOS</Link>
-                    <Link href="/" style={[tw`text-blue-800 text-xs`, styles.fontText]}>INFORMAÇÕES</Link>
+                    <Link href="/informacoes" style={[tw`text-blue-800 text-xs`, styles.fontText]}>INFORMAÇÕES</Link>
                     <Link href="/login" style={[tw`text-blue-800 text-xs border-2 border-blue-800 rounded-lg p-1`, styles.fontText]}>LOGIN</Link>
                 </View>
                 

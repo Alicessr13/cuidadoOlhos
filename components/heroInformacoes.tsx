@@ -56,33 +56,33 @@ export default function HeroInformacoes() {
                     </Text>
 
                     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={tw`flex-row`}>
-                        <View style={tw`items-center justify-center w-1/6 mr-4`}>
+                        <View style={tw`items-center justify-center w-64 mr-4 mb-4`}>
                             <Image source={require('../assets/images/aparelhodevisao.jpg')} style={[tw`rounded-lg`, { width: 190, height: 150 }]} />
                             <Text style={[tw`mt-2 text-left text-sm text-blue-800`, styles.fontTextBold]}>4 Hábitos Que Prejudicam a Saúde dos Seus Olhos</Text>
                             <Text style={[tw`mt-2 text-left text-sm text-blue-800`, styles.fontText]}>Pequenos hábitos do dia a dia podem comprometer sua visão sem que você perceba. </Text>
-                            <Link href="/habitos-prejudiciais" style={[tw`p-4 rounded-lg`,]}>
-                                <Text style={[tw`text-sm text-center`, styles.fontText]}>Descubra quais são e como evitar!</Text>
+                            <Link href="/habitos-prejudiciais" style={[tw`p-2 mt-2 w-full rounded-lg bg-blue-500`,]}>
+                                <Text style={[tw`text-sm text-center text-white`, styles.fontText]}>Descubra quais são e como evitar!</Text>
                             </Link>
                         </View>
 
-                        <View style={tw`items-center justify-center w-1/5 mr-8`}>
-                            <Image source={require('../assets/images/aparelhodevisao.jpg')} style={[tw`rounded-lg`, { width: 200, height: 150 }]} />
-                            <Text style={[tw`mt-2 text-center`, styles.fontTitle]}>4 Hábitos Que Prejudicam a Saúde dos Seus Olhos</Text>
+                        <View style={tw`items-center justify-center w-64 mr-4 mb-4`}>
+                            <Image source={require('../assets/images/aparelhodevisao.jpg')} style={[tw`rounded-lg`, { width: 190, height: 150 }]} />
+                            <Text style={[tw`mt-2 text-left text-sm text-blue-800`, styles.fontTextBold]}>4 Hábitos Que Prejudicam a Saúde dos Seus Olhos</Text>
+                            <Text style={[tw`mt-2 text-left text-sm text-blue-800`, styles.fontText]}>Pequenos hábitos do dia a dia podem comprometer sua visão sem que você perceba. </Text>
+                            <Link href="/habitos-prejudiciais" style={[tw`p-2 mt-2 w-full rounded-lg bg-blue-500`,]}>
+                                <Text style={[tw`text-sm text-center text-white`, styles.fontText]}>Descubra quais são e como evitar!</Text>
+                            </Link>
                         </View>
 
-                        <View style={tw`items-center justify-center w-1/5 mr-8`}>
-                            <Image source={require('../assets/images/aparelhodevisao.jpg')} style={[tw`rounded-lg`, { width: 200, height: 150 }]} />
-                            <Text style={[tw`mt-2 text-center`, styles.fontTitle]}>4 Hábitos Que Prejudicam a Saúde dos Seus Olhos</Text>
+                        <View style={tw`items-center justify-center w-64 mr-4 mb-4`}>
+                            <Image source={require('../assets/images/aparelhodevisao.jpg')} style={[tw`rounded-lg`, { width: 190, height: 150 }]} />
+                            <Text style={[tw`mt-2 text-left text-sm text-blue-800`, styles.fontTextBold]}>4 Hábitos Que Prejudicam a Saúde dos Seus Olhos</Text>
+                            <Text style={[tw`mt-2 text-left text-sm text-blue-800`, styles.fontText]}>Pequenos hábitos do dia a dia podem comprometer sua visão sem que você perceba. </Text>
+                            <Link href="/habitos-prejudiciais" style={[tw`p-2 mt-2 w-full rounded-lg bg-blue-500`,]}>
+                                <Text style={[tw`text-sm text-center text-white`, styles.fontText]}>Descubra quais são e como evitar!</Text>
+                            </Link>
                         </View>
                     </ScrollView>
-                </View>
-
-                <View style={tw`flex flex items-center justify-center w-full px-4 pt-8 bg-blue-800`}>
-                    <Text style={[tw`text-white mb-4 text-center text-xl`, styles.fontTitle]}>4 Hábitos Que Prejudicam a Saúde dos Seus Olhos</Text>
-                    <Text style={[tw`text-white text-center mb-4`, styles.fontText]}>Pequenos hábitos do dia a dia podem comprometer sua visão sem que você perceba. </Text>
-                    <Link href="/habitos-prejudiciais" style={[tw`p-4 rounded-lg border-4 border-white m-4`,]}>
-                        <Text style={[tw` text-white text-center`, styles.fontText]}>Descubra quais são e como evitar!</Text>
-                    </Link>
                 </View>
 
             </ScrollView>
